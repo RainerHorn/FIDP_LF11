@@ -8,10 +8,10 @@ This is a vocational school course repository for **Fachinformatiker für Daten-
 
 | Folder | Content |
 |---|---|
-| `LF11/Seiten/` | Student lesson pages and self-check solutions |
+| `LF11/<NN>_<Thema>/Seiten/` | Student lesson pages, self-check solutions, and standalone Aufgaben, per chapter — see `LF11/README.md` for the chapter list |
+| `LF11/<NN>_<Thema>/Fragen/` | Moodle XML quizzes for that chapter |
 | `LF11/Tests/` | Assessments/tests |
 | `LF11/Summary/` | Markdown summaries + generated PDFs |
-| `LF11/Fragen/` | Moodle XML quizzes (organized by chapter) |
 | `Templates/` | Central CSS/JS/HTML templates |
 | `MoodleQuestionGenerator/` | Git submodule for Moodle XML question generation |
 
@@ -118,7 +118,7 @@ Diese drei Muster folgen **anderen** Regeln als die Inhaltsseiten-CSS-IIFE oben:
 | Self-check solution | `FIDP_LF11_[NN]_[Thema]_Loesung.html` |
 | Moodle solution | `FIDP_LF11_[NN]_[Thema]_moodle.html` |
 
-Storage locations: student/lesson pages → `LF11/Seiten/`, tests → `LF11/Tests/`, summaries → `LF11/Summary/md/` (Markdown source) + `LF11/Summary/pdf/` (generated PDF), Moodle XML quizzes → `LF11/Fragen/` (organized by chapter, no template files).
+Storage locations: student/lesson pages and standalone Aufgaben → `LF11/<NN>_<Thema>/Seiten/` (per chapter, see `LF11/README.md` for the chapter list), tests → `LF11/Tests/`, summaries → `LF11/Summary/md/` (Markdown source) + `LF11/Summary/pdf/` (generated PDF), Moodle XML quizzes → `LF11/<NN>_<Thema>/Fragen/` (per chapter, no template files).
 
 Every lesson requires three files: student version, self-check solution, and Moodle submission solution. The solution file (`_Loesung.html`) is **for students to self-check after completing the tasks** — it contains only solutions to regular tasks, no repeated task text, structured with `<div class="teacher-solution">` blocks. The header uses `class="header loesung"` (red background) to visually distinguish it from task pages. **It does not contain the Moodle submission solution.** The Moodle submission solution (`_moodle.html`) is a separate file with only the expected answer and grading rubric for the `📤 Moodle-Abgabe` task — this file remains teacher-only.
 

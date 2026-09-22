@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: q1 -->
+<question type="multichoice">
+  <name>
+    <text>Ishikawa-Diagramm: Grundlagen und Zweck</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Welche Aussagen zum Ishikawa-Diagramm sind korrekt? (Mehrfachauswahl – mehrere Antworten sind richtig)</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Das Ishikawa-Diagramm (auch Fischgrätendiagramm) wurde von Kaoru Ishikawa entwickelt und dient der strukturierten Sammlung möglicher Ursachen eines Problems.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Es wird wegen seiner charakteristischen Form auch Fischgrätendiagramm genannt.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Es wurde nach dem japanischen Qualitätsmanagement-Experten Kaoru Ishikawa benannt.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Es hilft dabei, möglichst viele mögliche Ursachen eines Problems systematisch zu sammeln.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Es berechnet automatisch die statistische Wahrscheinlichkeit jeder einzelnen Ursache.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Es ersetzt die Pareto-Analyse vollständig, sodass diese nicht mehr benötigt wird.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Es darf ausschließlich von einer einzelnen Person ohne Teamabstimmung erstellt werden.</p>]]></text>
+  </answer>
+</question>
+
+<!-- question: q2 -->
+<question type="multichoice">
+  <name>
+    <text>Ishikawa-Diagramm: Bauteile des Zeichenvorrats</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Welche der folgenden Elemente gehören zum Zeichenvorrat eines vollständigen Ishikawa-Diagramms? (Mehrfachauswahl)</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Ein vollständiges Ishikawa-Diagramm besteht aus Rückgrat, Wirkungskasten, Hauptast, Ursache und Unterursache. Swimlane, Gateway und Guard-Bedingung stammen aus anderen Notationen (Aktivitätsdiagramm/BPMN).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Rückgrat – die Hauptlinie mit Pfeil zum Wirkungskasten</p>]]></text>
+  </answer>
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Wirkungskasten – benennt das zu untersuchende Problem neutral</p>]]></text>
+  </answer>
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Hauptast – führt schräg auf das Rückgrat zu einer Kategorie</p>]]></text>
+  </answer>
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Ursache – Nebenast mit einer konkreten möglichen Ursache</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Swimlane – Bahn für Zuständigkeiten in Aktivitätsdiagrammen</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Gateway – Verzweigung des Sequenzflusses in BPMN</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Guard-Bedingung – Bedingung an einem Übergang zwischen Zuständen</p>]]></text>
+  </answer>
+</question>
+
+<!-- question: q3 -->
+<question type="multichoice">
+  <name>
+    <text>Ishikawa-Diagramm: Formulierung des Wirkungskastens</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Welche Aussagen zur richtigen Formulierung des Wirkungskastens sind zutreffend? (Mehrfachauswahl)</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Der Wirkungskasten steht am rechten Ende des Rückgrats und benennt das Problem konkret, messbar und ohne Schuldzuweisung.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Die Formulierung sollte konkret und möglichst messbar sein, zum Beispiel mit einer Kennzahl.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Die Formulierung sollte neutral sein und keine Schuldzuweisung an bestimmte Personen enthalten.</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Der Wirkungskasten steht am rechten Ende des Rückgrats, auf das die Pfeile aller Ursachen zeigen.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Die Formulierung sollte möglichst allgemein bleiben, damit sie zu vielen Problemen passt.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Im Wirkungskasten wird die vermutete Lösung des Problems formuliert.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Der Wirkungskasten steht am linken Anfang des Rückgrats, von dem die Pfeile wegzeigen.</p>]]></text>
+  </answer>
+</question>
+
+<!-- question: q4 -->
+<question type="multichoice">
+  <name>
+    <text>Ishikawa-Diagramm: Die 6M-Kategorien</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Welche Kategorien gehören zu den klassischen 6M eines Ishikawa-Diagramms? (Mehrfachauswahl)</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Die 6M lauten Mensch, Maschine/IT-System, Methode, Material/Daten, Mitwelt/Umgebung und Management.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>6</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="16.66667" format="html"><text><![CDATA[<p>Mensch</p>]]></text></answer>
+  <answer fraction="16.66667" format="html"><text><![CDATA[<p>Maschine / IT-System</p>]]></text></answer>
+  <answer fraction="16.66667" format="html"><text><![CDATA[<p>Methode</p>]]></text></answer>
+  <answer fraction="16.66667" format="html"><text><![CDATA[<p>Material / Daten</p>]]></text></answer>
+  <answer fraction="16.66667" format="html"><text><![CDATA[<p>Mitwelt / Umgebung</p>]]></text></answer>
+  <answer fraction="16.66667" format="html"><text><![CDATA[<p>Management</p>]]></text></answer>
+  <answer fraction="-33.33333" format="html"><text><![CDATA[<p>Marketing</p>]]></text></answer>
+  <answer fraction="-33.33333" format="html"><text><![CDATA[<p>Motivation</p>]]></text></answer>
+  <answer fraction="-33.33333" format="html"><text><![CDATA[<p>Money</p>]]></text></answer>
+</question>
+
+<!-- question: q5 -->
+<question type="multichoice">
+  <name>
+    <text>Ishikawa-Diagramm: Ursachen der Kategorie Mensch</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Welche der folgenden Ursachen sind typische Beispiele für die 6M-Kategorie „Mensch"? (Mehrfachauswahl)</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Die Kategorie Mensch bündelt Ursachen rund um Qualifikation, Erfahrung, Motivation und Verfügbarkeit von Personal.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Fehlende Schulung/Einarbeitung neuer Mitarbeitender</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Hohe Fluktuation im Team</p>]]></text>
+  </answer>
+  <answer fraction="33.33333" format="html">
+    <text><![CDATA[<p>Krankheitsbedingte Personalausfälle ohne Vertretungsregelung</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Veraltetes Warenwirtschafts-/ERP-System</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Fehlende Kennzahlen zur Prozessüberwachung</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Saisonale Nachfragespitzen vor Feiertagen</p>]]></text>
+  </answer>
+</question>
+
+<!-- question: q6 -->
+<question type="multichoice">
+  <name>
+    <text>Ishikawa-Diagramm: Typische Fehler erkennen</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Welche der folgenden Situationen sind typische Fehler bei der Erstellung eines Ishikawa-Diagramms? (Mehrfachauswahl)</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Häufige Fehler sind Schuldzuweisungen im Wirkungskasten, doppelte Kategorien, Symptome statt Ursachen und Ursachen ohne Kategorie-Zuordnung.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <single>false</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Der Wirkungskasten enthält eine Schuldzuweisung statt einer neutralen Problemformulierung.</p>]]></text>
+  </answer>
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Eine Kategorie wie „Mensch" kommt im selben Diagramm zweimal als eigener Hauptast vor.</p>]]></text>
+  </answer>
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Eine Folge des Problems wird fälschlicherweise als Ursache eingetragen.</p>]]></text>
+  </answer>
+  <answer fraction="25" format="html">
+    <text><![CDATA[<p>Ursachen hängen direkt am Rückgrat, ohne einer Kategorie zugeordnet zu sein.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Zu jeder Kategorie werden mehrere mögliche Ursachen gesammelt.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Der Wirkungskasten steht am rechten Ende des Rückgrats.</p>]]></text>
+  </answer>
+  <answer fraction="-33.33333" format="html">
+    <text><![CDATA[<p>Eine Ursache wird durch eine Unterursache noch weiter aufgeschlüsselt.</p>]]></text>
+  </answer>
+</question>
+
+<!-- question: q7 -->
+<question type="ddmatch">
+  <name>
+    <text>Zuordnung: Bauteile und ihre Definition</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ordnen Sie jedem Bauteil des Ishikawa-Diagramms die passende Definition zu.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Rückgrat, Wirkungskasten, Hauptast, Ursache und Unterursache bilden zusammen den vollständigen Zeichenvorrat.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>5</defaultgrade>
+  <penalty>0.1</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <subquestion format="html">
+    <text><![CDATA[<p>Rückgrat</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Die durchgehende waagrechte Linie, die alle Kategorien und Ursachen mit dem Wirkungskasten verbindet</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Wirkungskasten</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Der Kasten am rechten Ende der Hauptlinie, der die Wirkung neutral und konkret benennt</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Hauptast</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Die dicke Linie, die schräg auf das Rückgrat trifft und zu einer Kategorie-Box führt</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Ursache</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Eine dünnere Linie mit einer konkreten möglichen Ursache als Beschriftung</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Unterursache</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Eine gestrichelte Linie, die von einer Ursache abzweigt und diese tiefer aufschlüsselt</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p></p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Swimlane – Bahn für Zuständigkeiten in einem Aktivitätsdiagramm</p>]]></text></answer>
+  </subquestion>
+</question>
+
+<!-- question: q8 -->
+<question type="ddmatch">
+  <name>
+    <text>Zuordnung: 6M-Kategorie und Beispielursache</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ordnen Sie jeder 6M-Kategorie eine passende Beispielursache zu.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Jede der sechs Kategorien deckt einen eigenen Bereich möglicher Ursachen ab.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>6</defaultgrade>
+  <penalty>0.1</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <subquestion format="html">
+    <text><![CDATA[<p>Mensch</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Fehlende Schulung der Mitarbeitenden</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Maschine / IT-System</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Häufige Systemabstürze bei Stoßzeiten</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Methode</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Keine schriftliche Checkliste vorhanden</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Material / Daten</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Unvollständige Kundendaten</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Mitwelt / Umgebung</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Saisonale Nachfragespitzen vor Großevents</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Management</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Keine Kennzahl zur Fehlerquote im Reporting</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p></p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Fehlende Versicherung des Firmenfahrzeugs</p>]]></text></answer>
+  </subquestion>
+</question>
+
+<!-- question: q9 -->
+<question type="ddmatch">
+  <name>
+    <text>Zuordnung: Analysewerkzeug und Zweck</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ordnen Sie jedem Analysewerkzeug seinen Zweck zu.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Ishikawa sammelt breit, 5-Why vertieft einzelne Ursachenzweige, Pareto priorisiert anschließend.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.1</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <subquestion format="html">
+    <text><![CDATA[<p>Ishikawa-Diagramm</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Sammelt möglichst viele Ursachen strukturiert nach Kategorien</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>5-Why</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Fragt bei einer einzelnen Ursache mehrfach nach dem Warum, um die Wurzelursache zu finden</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Pareto-Analyse</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Zeigt, welche wenigen Ursachen den größten Anteil am Problem erklären</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p></p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Verwaltet Projektaufgaben in einem Kanban-Board</p>]]></text></answer>
+  </subquestion>
+</question>
+
+<!-- question: q10 -->
+<question type="ddmatch">
+  <name>
+    <text>Zuordnung: Vorgehensschritt und Beschreibung</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ordnen Sie jedem Schritt beim Erstellen eines Ishikawa-Diagramms die passende Beschreibung zu.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Das systematische Vorgehen reicht von der Wirkungsformulierung bis zur Gewichtung der gefundenen Ursachen.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>5</defaultgrade>
+  <penalty>0.1</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <subquestion format="html">
+    <text><![CDATA[<p>Wirkung formulieren</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Das Problem wird konkret, messbar und ohne Schuldzuweisung benannt</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Kategorien festlegen</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>In der Regel werden die 6M als Hauptäste verwendet</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Ursachen sammeln</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Im Team werden möglichst viele denkbare Ursachen notiert, ohne sie sofort zu bewerten</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Unterursachen ergänzen</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Bei wichtigen Ursachen wird gefragt, warum sie überhaupt auftreten</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Ursachen gewichten</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Die wahrscheinlichsten Ursachen werden markiert, möglichst mit Kennzahlen belegt</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p></p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Wird nach Abschluss des Quartals automatisch aus dem System gelöscht</p>]]></text></answer>
+  </subquestion>
+</question>
+
+<!-- question: q11 -->
+<question type="ddmatch">
+  <name>
+    <text>Zuordnung: Fehlerbeispiel und Fehlerkategorie</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ordnen Sie jedem Fehlerbeispiel aus einem Ishikawa-Diagramm die passende Fehlerkategorie zu.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Typische Fehler betreffen die Formulierung des Wirkungskastens, die Kategorisierung und die Abgrenzung von Ursache und Symptom.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>5</defaultgrade>
+  <penalty>0.1</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <subquestion format="html">
+    <text><![CDATA[<p>„Die Buchhaltung ist zu langsam" steht im Wirkungskasten</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Schuldzuweisung statt neutraler Formulierung</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>„Kunden beschweren sich häufig" wird als Ursache eingetragen</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Symptom statt Ursache</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Die Kategorie „Mensch" kommt zweimal im Diagramm vor</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Doppelte Kategorie</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>„Keine automatisierte Rechnungserstellung" steht unter der Kategorie „Mitwelt"</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Falsche Kategoriezuordnung</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p>Ursachen hängen direkt am Rückgrat ohne Kategorie-Hauptast</p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Fehlende Kategorisierung</p>]]></text></answer>
+  </subquestion>
+  <subquestion format="html">
+    <text><![CDATA[<p></p>]]></text>
+    <answer format="html"><text><![CDATA[<p>Zu viele Kontrollfragen am Seitenende</p>]]></text></answer>
+  </subquestion>
+</question>
+
+<!-- question: q12 -->
+<question type="ddwtos">
+  <name>
+    <text>Lueckentext: Grundstruktur des Diagramms</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ergänzen Sie die Lücken durch Ziehen der passenden Begriffe:</p>
+<p>Das Ishikawa-Diagramm wird wegen seiner charakteristischen Form auch [[1]] genannt. Am rechten Ende der Hauptlinie steht der [[2]], der das zu untersuchende Problem neutral benennt. Die dicken Linien, die schräg auf die Hauptlinie treffen und zu einer Kategorie führen, heißen [[3]]. Innerhalb einer Kategorie wird eine konkrete mögliche [[4]] eingetragen.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Fischgrätendiagramm, Wirkungskasten, Hauptäste und Ursache sind zentrale Begriffe des Zeichenvorrats.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4</defaultgrade>
+  <penalty>0.25</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>1</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <dragbox><text>Fischgrätendiagramm</text><group>1</group></dragbox>
+  <dragbox><text>Wirkungskasten</text><group>2</group></dragbox>
+  <dragbox><text>Hauptäste</text><group>3</group></dragbox>
+  <dragbox><text>Ursache</text><group>4</group></dragbox>
+  <dragbox><text>Netzplan</text><group>1</group></dragbox>
+  <dragbox><text>Entscheidungsknoten</text><group>2</group></dragbox>
+  <dragbox><text>Nebenpfade</text><group>3</group></dragbox>
+  <dragbox><text>Unterursache</text><group>4</group></dragbox>
+</question>
+
+<!-- question: q13 -->
+<question type="ddwtos">
+  <name>
+    <text>Lueckentext: Die sechs Standardkategorien</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ergänzen Sie die Lücken durch Ziehen der passenden Begriffe:</p>
+<p>Die sechs Standardkategorien werden auch [[1]] genannt. Sie umfassen unter anderem die Kategorie [[2]], die Ursachen rund um Qualifikation und Verfügbarkeit von Personal bündelt, sowie die Kategorie [[3]], unter der IT-Systeme und technische Ausstattung eingeordnet werden. Ursachen zu unveränderlichen äußeren Rahmenbedingungen gehören zur Kategorie [[4]].</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>6M, Mensch, Maschine und Mitwelt sind vier der sechs Standardkategorien.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4</defaultgrade>
+  <penalty>0.25</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>1</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <dragbox><text>6M</text><group>1</group></dragbox>
+  <dragbox><text>Mensch</text><group>2</group></dragbox>
+  <dragbox><text>Maschine</text><group>3</group></dragbox>
+  <dragbox><text>Mitwelt</text><group>4</group></dragbox>
+  <dragbox><text>4P</text><group>1</group></dragbox>
+  <dragbox><text>Kunde</text><group>2</group></dragbox>
+  <dragbox><text>Methode</text><group>3</group></dragbox>
+  <dragbox><text>Ergebnis</text><group>4</group></dragbox>
+</question>
+
+<!-- question: q14 -->
+<question type="ddwtos">
+  <name>
+    <text>Lueckentext: Vorgehen beim Erstellen</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ergänzen Sie die Lücken durch Ziehen der passenden Begriffe:</p>
+<p>Bevor Ursachen gesammelt werden, wird zunächst die [[1]] konkret formuliert. Anschließend legt das Team die Kategorien fest, meist die [[2]]. Beim Brainstorming werden möglichst viele Ursachen gesammelt, ohne sie sofort zu [[3]]. Zum Schluss werden die wahrscheinlichsten Ursachen markiert und möglichst mit [[4]] belegt.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Wirkung, 6M, Bewertung und Kennzahlen sind Schlüsselbegriffe des Vorgehens.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4</defaultgrade>
+  <penalty>0.25</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>1</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <dragbox><text>Wirkung</text><group>1</group></dragbox>
+  <dragbox><text>6M</text><group>2</group></dragbox>
+  <dragbox><text>bewerten</text><group>3</group></dragbox>
+  <dragbox><text>Kennzahlen</text><group>4</group></dragbox>
+  <dragbox><text>Lösung</text><group>1</group></dragbox>
+  <dragbox><text>4P</text><group>2</group></dragbox>
+  <dragbox><text>löschen</text><group>3</group></dragbox>
+  <dragbox><text>Vermutungen</text><group>4</group></dragbox>
+</question>
+
+<!-- question: q15 -->
+<question type="ddwtos">
+  <name>
+    <text>Lueckentext: Abgrenzung zu 5-Why und Pareto</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ergänzen Sie die Lücken durch Ziehen der passenden Begriffe:</p>
+<p>Das Ishikawa-Diagramm sammelt möglichst [[1]] Ursachen nach Kategorien geordnet. Die 5-Why-Methode fragt dagegen bei einer einzelnen Ursache mehrfach nach dem [[2]], um die Wurzelursache zu finden. Die Pareto-Analyse hilft anschließend dabei, die gefundenen Ursachen nach ihrer Häufigkeit zu [[3]].</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Ishikawa sammelt breit, 5-Why fragt in die Tiefe, Pareto priorisiert nach Häufigkeit.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>1</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <dragbox><text>viele</text><group>1</group></dragbox>
+  <dragbox><text>Warum</text><group>2</group></dragbox>
+  <dragbox><text>priorisieren</text><group>3</group></dragbox>
+  <dragbox><text>wenige</text><group>1</group></dragbox>
+  <dragbox><text>Wo</text><group>2</group></dragbox>
+  <dragbox><text>löschen</text><group>3</group></dragbox>
+</question>
+
+<!-- question: q16 -->
+<question type="gapselect">
+  <name>
+    <text>Dropdown-Luecke: Bauteile erkennen</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Wählen Sie in den Dropdown-Menüs den passenden Fachbegriff aus dem Zeichenvorrat:</p>
+<p>Die Linie, die alle Kategorien mit dem Wirkungskasten verbindet, heißt [[1]]. Die schräg auf das Rückgrat treffende Linie zu einer Kategorie heißt [[2]]. Die gestrichelte Linie, die eine Ursache noch weiter aufschlüsselt, heißt [[3]].</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Rückgrat, Hauptast und Unterursache sind drei der fünf Bauteile.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <selectoption><text>Rückgrat</text><group>1</group></selectoption>
+  <selectoption><text>Hauptast</text><group>1</group></selectoption>
+  <selectoption><text>Unterursache</text><group>1</group></selectoption>
+
+  <selectoption><text>Hauptast</text><group>2</group></selectoption>
+  <selectoption><text>Rückgrat</text><group>2</group></selectoption>
+  <selectoption><text>Wirkungskasten</text><group>2</group></selectoption>
+
+  <selectoption><text>Unterursache</text><group>3</group></selectoption>
+  <selectoption><text>Ursache</text><group>3</group></selectoption>
+  <selectoption><text>Hauptast</text><group>3</group></selectoption>
+
+  <answer>
+    <questiontext>Rückgrat</questiontext>
+    <answer>1</answer>
+  </answer>
+  <answer>
+    <questiontext>Hauptast</questiontext>
+    <answer>1</answer>
+  </answer>
+  <answer>
+    <questiontext>Unterursache</questiontext>
+    <answer>1</answer>
+  </answer>
+</question>
+
+<!-- question: q17 -->
+<question type="gapselect">
+  <name>
+    <text>Dropdown-Luecke: Ursachen den Kategorien zuordnen</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Ordnen Sie jeder Ursache per Dropdown die passende 6M-Kategorie zu:</p>
+<p>„Fehlende Schulung neuer Mitarbeitender" gehört zur Kategorie [[1]]. „Häufige Systemabstürze bei Stoßzeiten" gehört zur Kategorie [[2]]. „Keine schriftliche Checkliste vorhanden" gehört zur Kategorie [[3]].</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Mensch, Maschine/IT-System und Methode sind drei der sechs Kategorien.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <selectoption><text>Mensch</text><group>1</group></selectoption>
+  <selectoption><text>Methode</text><group>1</group></selectoption>
+  <selectoption><text>Management</text><group>1</group></selectoption>
+
+  <selectoption><text>Maschine / IT-System</text><group>2</group></selectoption>
+  <selectoption><text>Mitwelt / Umgebung</text><group>2</group></selectoption>
+  <selectoption><text>Material / Daten</text><group>2</group></selectoption>
+
+  <selectoption><text>Methode</text><group>3</group></selectoption>
+  <selectoption><text>Mensch</text><group>3</group></selectoption>
+  <selectoption><text>Maschine / IT-System</text><group>3</group></selectoption>
+
+  <answer>
+    <questiontext>Mensch</questiontext>
+    <answer>1</answer>
+  </answer>
+  <answer>
+    <questiontext>Maschine / IT-System</questiontext>
+    <answer>1</answer>
+  </answer>
+  <answer>
+    <questiontext>Methode</questiontext>
+    <answer>1</answer>
+  </answer>
+</question>
+
+<!-- question: q18 -->
+<question type="gapselect">
+  <name>
+    <text>Dropdown-Luecke: Fehler benennen</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Wählen Sie für jedes Beispiel die passende Fehlerbezeichnung:</p>
+<p>Der Wirkungskasten enthält den Text „Die Buchhaltung ist zu langsam" – das ist ein Beispiel für [[1]]. „Kunden beschweren sich häufig" wird als Ursache eingetragen – das ist ein Beispiel für [[2]]. Die Kategorie „Mensch" taucht zweimal als eigener Hauptast auf – das ist ein Beispiel für [[3]].</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Schuldzuweisung, Symptom statt Ursache und doppelte Kategorie sind drei typische Fehlerarten.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>3</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>true</shuffleanswers>
+  <correctfeedback format="html"><text>Die Antwort ist richtig.</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Antwort ist teilweise richtig.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Antwort ist falsch.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <selectoption><text>Schuldzuweisung</text><group>1</group></selectoption>
+  <selectoption><text>Symptom statt Ursache</text><group>1</group></selectoption>
+  <selectoption><text>doppelte Kategorie</text><group>1</group></selectoption>
+
+  <selectoption><text>Symptom statt Ursache</text><group>2</group></selectoption>
+  <selectoption><text>Schuldzuweisung</text><group>2</group></selectoption>
+  <selectoption><text>falsche Kategoriezuordnung</text><group>2</group></selectoption>
+
+  <selectoption><text>doppelte Kategorie</text><group>3</group></selectoption>
+  <selectoption><text>fehlende Kategorisierung</text><group>3</group></selectoption>
+  <selectoption><text>Schuldzuweisung</text><group>3</group></selectoption>
+
+  <answer>
+    <questiontext>Schuldzuweisung</questiontext>
+    <answer>1</answer>
+  </answer>
+  <answer>
+    <questiontext>Symptom statt Ursache</questiontext>
+    <answer>1</answer>
+  </answer>
+  <answer>
+    <questiontext>doppelte Kategorie</questiontext>
+    <answer>1</answer>
+  </answer>
+</question>
+
+<!-- question: q19 -->
+<question type="ordering">
+  <name>
+    <text>Reihenfolge: Die sieben Schritte der Erstellung</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Bringen Sie die folgenden Schritte zur Erstellung eines Ishikawa-Diagramms in die richtige Reihenfolge.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Von der Wirkungsformulierung über das Sammeln und Einordnen bis zur Gewichtung und Dokumentation.</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>7</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>1</shuffleanswers>
+  <layouttype>0</layouttype>
+  <selecttype>0</selecttype>
+  <selectcount>0</selectcount>
+  <gradingtype>0</gradingtype>
+  <showgrading>1</showgrading>
+  <correctfeedback format="html"><text>Die Reihenfolge ist vollständig korrekt!</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Reihenfolge ist teilweise korrekt.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Reihenfolge ist nicht korrekt.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="1" format="html">
+    <text><![CDATA[<p>Wirkung im Wirkungskasten konkret und neutral formulieren</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="2" format="html">
+    <text><![CDATA[<p>Kategorien (in der Regel die 6M) festlegen</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="3" format="html">
+    <text><![CDATA[<p>Im Team möglichst viele Ursachen sammeln, ohne sie sofort zu bewerten</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="4" format="html">
+    <text><![CDATA[<p>Gesammelte Ursachen den passenden Kategorien zuordnen</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="5" format="html">
+    <text><![CDATA[<p>Bei wichtigen Ursachen Unterursachen ergänzen</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="6" format="html">
+    <text><![CDATA[<p>Wahrscheinlichste Ursachen markieren und möglichst mit Kennzahlen belegen</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="7" format="html">
+    <text><![CDATA[<p>Ergebnis dokumentieren und nächste Analyseschritte ableiten</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+</question>
+
+<!-- question: q20 -->
+<question type="ordering">
+  <name>
+    <text>Reihenfolge: Vom Gesamtproblem zur Detailursache</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Bringen Sie die folgenden Bauteile des Ishikawa-Diagramms in die Reihenfolge vom Gesamtproblem bis zur tiefsten Detailebene.</p>]]></text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text><![CDATA[<p>Wirkungskasten (Gesamtproblem) → Hauptast (Kategorie) → Ursache → Unterursache (tiefste Ebene).</p>]]></text>
+  </generalfeedback>
+  <defaultgrade>4</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <idnumber></idnumber>
+  <shuffleanswers>1</shuffleanswers>
+  <layouttype>0</layouttype>
+  <selecttype>0</selecttype>
+  <selectcount>0</selectcount>
+  <gradingtype>0</gradingtype>
+  <showgrading>1</showgrading>
+  <correctfeedback format="html"><text>Die Reihenfolge ist vollständig korrekt!</text></correctfeedback>
+  <partiallycorrectfeedback format="html"><text>Die Reihenfolge ist teilweise korrekt.</text></partiallycorrectfeedback>
+  <incorrectfeedback format="html"><text>Die Reihenfolge ist nicht korrekt.</text></incorrectfeedback>
+  <shownumcorrect/>
+
+  <answer fraction="1" format="html">
+    <text><![CDATA[<p>Wirkungskasten – benennt das Gesamtproblem</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="2" format="html">
+    <text><![CDATA[<p>Hauptast – bündelt eine Kategorie möglicher Ursachen</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="3" format="html">
+    <text><![CDATA[<p>Ursache – konkrete mögliche Ursache innerhalb der Kategorie</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+  <answer fraction="4" format="html">
+    <text><![CDATA[<p>Unterursache – schlüsselt eine Ursache noch weiter auf</p>]]></text>
+    <feedback format="html"><text></text></feedback>
+    <md5key></md5key>
+  </answer>
+</question>
+
+</quiz>

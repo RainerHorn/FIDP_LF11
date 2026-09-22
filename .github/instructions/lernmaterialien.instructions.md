@@ -249,8 +249,9 @@ Der integrierte Chatbot wird per **dynamischem `import()`** geladen – dies ist
 - Keine Leerzeichen; Umlaute beibehalten oder durch ae/oe/ue ersetzen
 
 **Ablageorte:**
-- Lernerseiten → `LF11/Seiten/`
-- Tests/Quizze → `LF11/Tests/`
+- Lernerseiten (inkl. Lösungsseite, Moodle-Abgabe-Lösung und Einzelaufgaben) → `LF11/<NN>_<Thema>/Seiten/` (Kapitelordner, siehe `LF11/README.md` für die Liste)
+- Moodle-XML-Quizze → `LF11/<NN>_<Thema>/Fragen/`
+- Tests → `LF11/Tests/`
 - Zusammenfassungen → `LF11/Summary/`
 
 ### 6a) Schülerversion, Lösungsseite und Moodle-Abgabe-Lösung (PFLICHT)
@@ -280,7 +281,7 @@ Zu **jeder Lerneinheit** müssen **drei Dateien** erstellt werden:
 - Am Seitenanfang: **„📤 Moodle-Abgabe – Musterlösung"** als Überschrift + `🔒 NUR FÜR LEHRKRÄFTE` Badge
 - CSS-Klasse `.teacher-solution` für den Inhalt
 - Dateiname: `FIDP_LF11_[NN]_[Thema]_moodle.html`
-- Ablagepfad: wie Schüler- und Lösungsseite in `LF11/Seiten/`
+- Ablagepfad: wie Schüler- und Lösungsseite im `Seiten/`-Ordner des Kapitels (`LF11/<NN>_<Thema>/Seiten/`)
 
 **HTML-Grundstruktur der Lösungsseite:**
 ```html
@@ -456,6 +457,6 @@ Die PDF fasst das Kapitel kompakt zusammen und enthält:
 6. **Lösungsseite** (`_Loesung.html`) mit Musterlösungen der regulären Aufgaben erstellen – roter Header, **ohne** Moodle-Abgabe-Lösung (§6a)
 6a. **Moodle-Abgabe-Lösung** (`_moodle.html`) als separate Datei erstellen – enthält nur Erwartungshorizont + Bewertungsraster der Moodle-Abgabe (§6a, §8)
 7. Qualitätscheckliste (§9) prüfen
-8. Dateien unter `LF11/Seiten/` oder `LF11/Tests/` ablegen
+8. Dateien unter `LF11/<NN>_<Thema>/Seiten/` bzw. `LF11/Tests/` ablegen
 9. Nach Abschluss eines Kapitels: **PDF-Zusammenfassung** erstellen und in `LF11/Summary/pdf/` ablegen (§12)
 10. In Moodle-Kurs einbinden

@@ -79,6 +79,14 @@ Die ursprüngliche Zuordnung (Original-Woche aus dem Unterrichtskonzept) steht j
 
 ---
 
+## Woche 14 – Ursache-Wirkungs-Analyse mit dem Ishikawa-Diagramm *(neu, Vertiefung zu Woche 8)*
+- [x] Materialseite: vollständiger Zeichenvorrat des Ishikawa-Diagramms (Rückgrat, Hauptäste/6M-Kategorien, Ursachen, Unterursachen) mit interaktiven Elementen
+- [x] Aufgabe a1: einfaches Ishikawa-Diagramm erstellen
+- [x] Aufgabe a2: komplexes Ishikawa-Diagramm mit allen 6M-Kategorien erstellen
+- [x] Aufgabe a3: fehlerhaftes Ishikawa-Diagramm korrigieren
+
+---
+
 ## Offene Punkte
 - [ ] Prüfen, ob Woche 11 (Optimierung + Wirtschaftlichkeit) und Woche 13 (Transformation + Prüfungssimulation) im Umfang von je 5 UStd. tatsächlich ausreichen, oder ob eine Stunde aus den Mathematik-Wochen (4–5) bei Bedarf nachträglich verschoben werden muss
 - [ ] Lernmaterialien je Woche gemäß `.github/instructions/lernmaterialien.instructions.md` erstellen (Schülerversion, Lösungsseite, Moodle-Abgabe-Lösung)
